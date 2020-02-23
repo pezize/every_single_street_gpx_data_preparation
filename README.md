@@ -25,6 +25,7 @@ From input `.gpx` or `.gpx.xml` files, `prepare.py` can generate two types of ou
   | `cumulative_distance`   | session up to point       | computed |
   | `cumulative_duration`   | session up to point       | computed |
   | `rolling_average_speed` | session up to point       | computed |
+  
   which could be visualized like this ![point data set visualization](images/point_data_set.png);
   
 * the **hull** data set which provides the area covered by every running session:
@@ -34,7 +35,8 @@ From input `.gpx` or `.gpx.xml` files, `prepare.py` can generate two types of ou
   | `vertex_id`  | Position of the vertex in the area polygon. |
   | `latitude`   | Vertex latitude.                            |
   | `longitude`  | Vertex longitude.                           |
+  
   which could be visualized like this ![hull data set visualization](images/hull_data_set.png).
  
-The _Point_ data set was used by [Yvan Fornes](https://www.tableau.com/about/blog/contributors/yvan-fornes) to design this [Tableau](https://www.tableau.com/) visualization:
+The **Point** data set was used by [Yvan Fornes](https://www.tableau.com/about/blog/contributors/yvan-fornes) to design this [Tableau](https://www.tableau.com/) visualization:
 [![Every Single Street visualization](images/every_single_street_visualization.png)](https://public.tableau.com/profile/yvan.fornes#!/vizhome/EverySingleStreet/SanFrancisco2018-RickyGate2).
